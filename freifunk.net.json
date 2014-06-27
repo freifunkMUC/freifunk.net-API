@@ -1,1 +1,45 @@
-{"name":"München","url":"https://muenchen.freifunk.net/","location":{"city":"München","lat":48.1333,"lon":11.5833,"address":{"Name":"muCCC","Street":"SchleissheimerStr.41","Zipcode":"80797"}},"contact":{"email":"info@muenchen.freifunk.net","irc":"irc://ray.blafasel.de/
+{
+  "name": "München",
+  "url": "https://muenchen.freifunk.net/",
+  "location": {
+    "city": "München",
+    "lat": 48.1333,
+    "lon": 11.5833,
+    "address": {
+      "Name": "muCCC",
+      "Street": "Schleißheimer Str. 41",
+      "Zipcode": "80797"
+    }
+  },
+  "contact": {
+    "email": "info@muenchen.freifunk.net",
+    "irc": "irc://ray.blafasel.de/#freifunk",
+    "ml": "freifunk@muenchen.freifunk.net",
+    "twitter": "@FreifunkMUC"
+  },
+  "state": {
+    "message": "Ein dezentrales, sich selbst organisierendes und unzensiertes Netzwerk, das Nachbarn verbindet und Freunde näherbringt. Jeder kann mitmachen.",
+    "lastchange": "2014-06-27T20:19:35.291Z"
+  },
+  "techDetails": {
+    "firmware": {
+      "url": "https://openwrt.org/",
+      "name": "OpenWRT"
+    },
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fe80::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.80.0.0/16"
+        }
+      ]
+    },
+    "routing": "",
+    "vpn": "vtun"
+  },
+  "api": "0.3.0"
+}
