@@ -1,10 +1,11 @@
 {
   "name": "München",
-  "url": "https://muenchen.freifunk.net/",
+  "url": "http://www.freifunk-muenchen.de",
   "location": {
     "city": "München",
-    "lat": 48.1333,
-    "lon": 11.5833,
+    "country": "DE",
+    "lat": 48.1536,
+    "lon": 11.5607,
     "address": {
       "Name": "muCCC",
       "Street": "Schleißheimer Str. 41",
@@ -12,19 +13,22 @@
     }
   },
   "contact": {
-    "email": "info@muenchen.freifunk.net",
+    "email": "muenchen@freifunk.net",
     "irc": "irc://ray.blafasel.de/#freifunk",
-    "ml": "freifunk@muenchen.freifunk.net",
+    "ml": "muenchen@freifunk.net",
     "twitter": "@FreifunkMUC"
   },
-  "state": {
-    "message": "Ein dezentrales, sich selbst organisierendes und unzensiertes Netzwerk, das Nachbarn verbindet und Freunde näherbringt. Jeder kann mitmachen.",
-    "lastchange": "2014-06-27T20:19:35.291Z"
-  },
+  "nodeMaps": [
+    {
+      "url": "http://37.120.168.150/ffmap-d3/graph.html",
+      "interval": "1 minute",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    }
+  ],
   "techDetails": {
     "firmware": {
-      "url": "https://openwrt.org/",
-      "name": "OpenWRT"
+      "name": "Gluon"
     },
     "networks": {
       "ipv6": [
@@ -38,8 +42,13 @@
         }
       ]
     },
-    "routing": "",
-    "vpn": "vtun"
+    "routing": [],
+    "updatemode": [],
+    "legals": []
   },
-  "api": "0.3.0"
+  "state": {
+    "lastchange": "2014-09-30T21:00:57.958Z",
+    "focus": []
+  },
+  "api": "0.4.3"
 }
