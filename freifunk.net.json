@@ -45,7 +45,7 @@
     }, 
     "nodeMaps": [
         {
-            "url": "http://37.120.168.150/ffmap-d3/graph.html", 
+            "url": "http://map.freifunk-muenchen.de", 
             "interval": "1 minute", 
             "technicalType": "ffmap", 
             "mapType": "structural"
