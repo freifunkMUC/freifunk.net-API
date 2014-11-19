@@ -1,13 +1,19 @@
 {
     "name": "Freifunk M\u00fcnchen", 
     "url": "http://www.freifunk-muenchen.de", 
-    "techDetails": {
-        "updatemode": [], 
+    "techDetails": { 
         "firmware": {
-            "name": "Gluon"
+            "name": "gluon",
+            "url": "http://freifunk-muenchen.de/firmware"
         }, 
         "legals": [], 
-        "routing": [], 
+        "routing": [
+            "batman-adv"
+        ],
+        "updatemode": [
+            "manual",
+            "autoupdate"
+        ], 
         "networks": {
             "ipv4": [
                 {
