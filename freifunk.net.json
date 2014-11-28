@@ -1,6 +1,5 @@
 {
     "name": "Freifunk M\u00fcnchen", 
-    "api": "0.4.3", 
     "url": "http://www.freifunk-muenchen.de", 
     "techDetails": {
         "updatemode": [
@@ -28,26 +27,27 @@
             ]
         }
     }, 
-    "state": {
-        "lastchange": "2014-11-29T00:00:02.944066", 
-        "nodes": "107"
-    }, 
     "contact": {
         "ml": "muenchen@freifunk.net", 
         "twitter": "@FreifunkMUC", 
         "irc": "irc://space.blafasel.de/#freifunk", 
         "email": "muenchen@freifunk.net"
     }, 
+    "state": {
+        "lastchange": "2014-11-29T00:30:02.251931", 
+        "nodes": "106"
+    }, 
+    "api": "0.4.3", 
     "location": {
         "lat": 48.1536, 
         "city": "M\u00fcnchen", 
+        "country": "DE", 
+        "lon": 11.5607, 
         "address": {
             "Street": "Schlei\u00dfheimer Str. 41", 
             "Name": "muCCC", 
             "Zipcode": "80797"
-        }, 
-        "lon": 11.5607, 
-        "country": "DE"
+        }
     }, 
     "nodeMaps": [
         {
