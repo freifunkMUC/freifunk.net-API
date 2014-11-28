@@ -1,5 +1,7 @@
 #!/bin/bash
 
+wget http://37.120.168.150/node_stats
+
 git.sh -i /var/www/.ssh/srv01 pull
 python freifunkAPIupdater.py
 
