@@ -7,6 +7,6 @@ python freifunkAPIupdater.py
 
 git add freifunk.net.json
 git commit -a -m "updated number of nodes"
-git.sh -i /var/www/.ssh/srv01 push
+git.sh -i /var/www/.ssh/srv01 push https://chris007de@github.com/freifunkMUC/freifunk.net-API.git
 
 
