@@ -1,7 +1,5 @@
 #!/bin/bash
 
-wget http://37.120.168.150/node_stats -O node_stats
-
 git pull
 python freifunkAPIupdater.py
 
