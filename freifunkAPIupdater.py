@@ -17,7 +17,7 @@ except Exception as ex:
   exit(ex)
 
 data["state"]["lastchange"] = datetime.now().isoformat('T')
-data["state"]["nodes"] = nodes
+data["state"]["nodes"] = int(nodes)
 print data["state"]["lastchange"]
 print data["state"]["nodes"]
 
