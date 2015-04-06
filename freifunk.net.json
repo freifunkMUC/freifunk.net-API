@@ -30,7 +30,7 @@
     "contact": {
         "ml": "muenchen@freifunk.net", 
         "twitter": "@FreifunkMUC", 
-        "irc": "irc://space.blafasel.de/#freifunk", 
+        "irc": "ircs://irc.darkfasel.net/#freifunk", 
         "email": "muenchen@freifunk.net"
     }, 
     "state": {
