@@ -1,6 +1,6 @@
 {
     "name": "Freifunk M\u00fcnchen", 
-    "api": "0.4.3", 
+    "api": "0.4.8", 
     "url": "http://www.freifunk-muenchen.de", 
     "techDetails": {
         "updatemode": [
