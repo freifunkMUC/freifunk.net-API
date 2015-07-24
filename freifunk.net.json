@@ -63,6 +63,12 @@
             "category": "blog",
             "type": "xml",
             "url": "https://ffmuc.net/feed.xml"
+        },
+        {
+            "name": "Freifunk München Podcast",
+            "category": "podcast",
+            "type": "xml",
+            "url": "https://ffmuc.net/podcast/mp3.xml"
         }
     ]
 }
