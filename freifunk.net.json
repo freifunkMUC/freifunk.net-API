@@ -56,5 +56,13 @@
             "technicalType": "ffmap", 
             "mapType": "structural"
         }
+    ],
+    "feeds": [
+        {
+            "name": "ffmuc-blog",
+            "category": "blog",
+            "type": "xml",
+            "url": "https://ffmuc.net/feed.xml"
+        }
     ]
 }
