@@ -29,8 +29,8 @@
         }
     }, 
     "state": {
-        "lastchange": "2015-08-19T11:21:06.280186", 
-        "nodes": 735
+        "lastchange": "2015-08-31T18:08:23.280186", 
+        "nodes": 780
     }, 
     "contact": {
         "ml": "muenchen@freifunk.net", 
@@ -55,6 +55,11 @@
             "interval": "1 minute", 
             "technicalType": "ffmap", 
             "mapType": "structural"
+        },
+        {
+            "url": "https://ffmuc.net/data",
+            "interval": "1 minute",
+            "technicalType": "nodelist"
         }
     ],
     "feeds": [
