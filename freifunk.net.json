@@ -57,7 +57,7 @@
             "mapType": "structural"
         },
         {
-            "url": "https://ffmuc.net/data",
+            "url": "https://ffmuc.net/data/nodelist.json",
             "interval": "1 minute",
             "technicalType": "nodelist"
         }
