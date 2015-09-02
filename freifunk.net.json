@@ -51,7 +51,7 @@
     }, 
     "nodeMaps": [
         {
-            "url": "http://map.freifunk-muenchen.de", 
+            "url": "https://ffmuc.net/map/", 
             "interval": "1 minute", 
             "technicalType": "ffmap", 
             "mapType": "structural"
