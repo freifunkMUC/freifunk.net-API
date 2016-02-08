@@ -2,7 +2,7 @@
 from datetime import datetime
 from requests import get as rget
 
-NODESJSON = 'http://map.freifunk-muenchen.de/nodes.json'
+NODESJSON = 'https://ffmuc.net/data/nodelist.json'
 
 def scrape(url):
     '''returns remote json'''
@@ -19,9 +19,9 @@ if __name__ == '__main__':
         nonclient = 0
 
         for node in nodes['nodes']:
-            if node['flags']['online']:
+            if node['status']['online']:
                 online += 1
-                if not node['flags']['client']:
+                if not node['status']['clients']:
                     nonclient += 1
 
         now = datetime.now().strftime('%H:%M %d.%m.%Y')
