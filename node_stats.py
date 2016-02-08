@@ -18,10 +18,10 @@ if __name__ == '__main__':
         online = 0
         nonclient = 0
 
-        for node in nodes['nodes']:
+        for node in nodes['nodes'].values():
             if node['flags']['online']:
                 online += 1
-                if not node['flags']['client']:
+                if node['flags']['gateway']:
                     nonclient += 1
 
         now = datetime.now().strftime('%H:%M %d.%m.%Y')

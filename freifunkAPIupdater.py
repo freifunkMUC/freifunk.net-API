@@ -12,7 +12,7 @@ json_data.close()
 try:
   with open('node_stats', 'r') as fn:
     numbers = re.findall(r'\d+', fn.readline())
-    nodes = numbers[1]
+    nodes = numbers[2]
 except Exception as ex:
   exit(ex)
 
