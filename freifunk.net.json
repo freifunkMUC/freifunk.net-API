@@ -1,79 +1,80 @@
 {
-    "name": "Freifunk M\u00fcnchen", 
-    "api": "0.4.8", 
-    "url": "http://www.freifunk-muenchen.de", 
-    "techDetails": {
-        "updatemode": [
-            "manual", 
-            "autoupdate"
-        ], 
-        "firmware": {
-            "url": "http://freifunk-muenchen.de/firmware", 
-            "name": "gluon"
-        }, 
-        "legals": [], 
-        "routing": [
-            "batman-adv"
-        ], 
-        "networks": {
-            "ipv4": [
-                {
-                    "network": "10.80.0.0/16"
-                }
-            ], 
-            "ipv6": [
-                {
-                    "network": "fdef:ffc0:4fff::/64"
-                }
-            ]
-        }
-    }, 
-    "state": {
-        "lastchange": "2016-01-13T23:42:42.280186", 
-        "nodes": 1240
-    }, 
-    "contact": {
-        "ml": "muenchen@freifunk.net", 
-        "twitter": "@FreifunkMUC", 
-        "irc": "ircs://irc.darkfasel.net/#freifunk", 
-        "email": "muenchen@freifunk.net"
-    }, 
-    "location": {
-        "lat": 48.1536, 
-        "city": "M\u00fcnchen", 
-        "address": {
-            "Street": "Schlei\u00dfheimer Str. 41", 
-            "Name": "muCCC", 
-            "Zipcode": "80797"
-        }, 
-        "lon": 11.5607, 
-        "country": "DE"
-    }, 
-    "nodeMaps": [
+  "name": "Freifunk München",
+  "url": "http://www.freifunk-muenchen.de",
+  "location": {
+    "city": "München",
+    "country": "DE",
+    "lat": 48.1536,
+    "lon": 11.5607,
+    "address": {
+      "Name": "muCCC",
+      "Street": "Schleißheimer Str. 41",
+      "Zipcode": "80797"
+    }
+  },
+  "contact": {
+    "email": "muenchen@freifunk.net",
+    "irc": "ircs://irc.darkfasel.net/#freifunk",
+    "ml": "muenchen@freifunk.net",
+    "twitter": "@FreifunkMUC"
+  },
+  "state": {
+    "nodes": 1371,
+    "lastchange": "2016-02-08T10:33:43.910Z",
+    "focus": []
+  },
+  "feeds": [
+    {
+      "name": "ffmuc-blog",
+      "category": "blog",
+      "type": "xml",
+      "url": "https://ffmuc.net/feed.xml"
+    },
+    {
+      "name": "Freifunk München Podcast",
+      "category": "podcast",
+      "type": "xml",
+      "url": "https://ffmuc.net/podcast/mp3.xml"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://ffmuc.net/map/",
+      "interval": "1 minute",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    },
+    {
+      "url": "https://ffmuc.net/data/nodelist.json",
+      "interval": "1 minute",
+      "technicalType": "nodelist"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://freifunk-muenchen.de/firmware"
+    },
+    "networks": {
+      "ipv6": [
         {
-            "url": "https://ffmuc.net/map/", 
-            "interval": "1 minute", 
-            "technicalType": "ffmap", 
-            "mapType": "structural"
-        },
-        {
-            "url": "https://ffmuc.net/data/nodelist.json",
-            "interval": "1 minute",
-            "technicalType": "nodelist"
+          "network": "fdef:ffc0:4fff::/64"
         }
+      ],
+      "ipv4": [
+        {
+          "network": "10.80.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
     ],
-    "feeds": [
-        {
-            "name": "ffmuc-blog",
-            "category": "blog",
-            "type": "xml",
-            "url": "https://ffmuc.net/feed.xml"
-        },
-        {
-            "name": "Freifunk München Podcast",
-            "category": "podcast",
-            "type": "xml",
-            "url": "https://ffmuc.net/podcast/mp3.xml"
-        }
-    ]
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": []
+  },
+  "api": "0.4.11"
 }
