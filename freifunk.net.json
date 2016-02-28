@@ -1,6 +1,6 @@
 {
   "name": "Freifunk München",
-  "url": "http://www.freifunk-muenchen.de",
+  "url": "https://ffmuc.net/",
   "location": {
     "city": "München",
     "country": "DE",
@@ -15,13 +15,17 @@
   "contact": {
     "email": "muenchen@freifunk.net",
     "irc": "ircs://irc.darkfasel.net/#freifunk",
-    "ml": "muenchen@freifunk.net",
+    "ml": "http://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net",
     "twitter": "@FreifunkMUC"
   },
   "state": {
-    "nodes": 1400,
-    "lastchange": "2016-02-20:23:42.000Z",
-    "focus": []
+    "nodes": 1430,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Free internet access"
+    ],
+    "lastchange": "2016-02-28T13:01:32.102Z"
   },
   "feeds": [
     {
@@ -41,8 +45,8 @@
     {
       "url": "https://ffmuc.net/map/",
       "interval": "1 minute",
-      "technicalType": "ffmap",
-      "mapType": "structural"
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
     },
     {
       "url": "https://ffmuc.net/data/nodelist.json",
@@ -53,12 +57,18 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://freifunk-muenchen.de/firmware"
+      "url": "https://ffmuc.net/firmware",
+      "docs": "https://github.com/freifunkMUC/site-ffm",
+      "vpnaccess": "automatic",
+      "orgrestrictions": "https://ffmuc.net/nutzungsbedingungen/"
     },
     "networks": {
       "ipv6": [
         {
-          "network": "fdef:ffc0:4fff::/64"
+          "network": "fdef:ffc0:4fff::/48"
+        },
+        {
+          "network": "2001:608:a01::/48"
         }
       ],
       "ipv4": [
@@ -74,7 +84,11 @@
       "manual",
       "autoupdate"
     ],
-    "legals": []
+    "legals": [
+      "vpnnational",
+      "vpninternational",
+      "institutions"
+    ]
   },
-  "api": "0.4.11"
+  "api": "0.4.12"
 }
