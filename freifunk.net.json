@@ -43,13 +43,13 @@
   ],
   "nodeMaps": [
     {
-      "url": "https://ffmuc.net/map/",
+      "url": "https://map.ffmuc.net/",
       "interval": "1 minute",
       "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
-      "url": "https://ffmuc.net/data/nodelist.json",
+      "url": "https://map.ffmuc.net/data/nodelist.json",
       "interval": "1 minute",
       "technicalType": "nodelist"
     }
