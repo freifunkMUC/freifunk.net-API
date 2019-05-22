@@ -49,7 +49,7 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://map.ffmuc.net/data/nodelist.json",
+      "url": "https://gw02.ext.ffmuc.net/nodelist.json",
       "interval": "1 minute",
       "technicalType": "nodelist"
     }
