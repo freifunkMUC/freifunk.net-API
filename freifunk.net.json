@@ -13,7 +13,7 @@
     }
   },
   "contact": {
-    "email": "muenchen@freifunk.net",
+    "email": "hilfe@ffmuc.net",
     "irc": "ircs://irc.darkfasel.net/#freifunk",
     "ml": "http://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net",
     "twitter": "@FreifunkMUC"
@@ -57,16 +57,13 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "https://ffmuc.net/firmware",
+      "url": "https://firmware.ffmuc.net",
       "docs": "https://github.com/freifunkMUC/site-ffm",
       "vpnaccess": "automatic",
       "orgrestrictions": "https://ffmuc.net/nutzungsbedingungen/"
     },
     "networks": {
       "ipv6": [
-        {
-          "network": "fdef:ffc0:4fff::/48"
-        },
         {
           "network": "2001:608:a01::/48"
         }
