@@ -32,13 +32,13 @@
       "name": "ffmuc-blog",
       "category": "blog",
       "type": "xml",
-      "url": "https://ffmuc.net/feed.xml"
+      "url": "https://hp.ext.ffmuc.net/feed.xml"
     },
     {
       "name": "Freifunk München Podcast",
       "category": "podcast",
       "type": "xml",
-      "url": "https://ffmuc.net/podcast/mp3.xml"
+      "url": "https://hp.ext.ffmuc.net/podcast/mp3.xml"
     }
   ],
   "nodeMaps": [
