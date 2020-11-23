@@ -49,7 +49,7 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://gw02.ext.ffmuc.net/nodelist.json",
+      "url": "https://gw04.ext.ffmuc.net/nodelist.json",
       "interval": "1 minute",
       "technicalType": "nodelist"
     }
@@ -65,12 +65,12 @@
     "networks": {
       "ipv6": [
         {
-          "network": "2001:608:a01::/48"
+          "network": "2001:678:e68::/48"
         }
       ],
       "ipv4": [
         {
-          "network": "10.80.0.0/16"
+          "network": "5.1.66.0/24"
         }
       ]
     },
