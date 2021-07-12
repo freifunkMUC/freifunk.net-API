@@ -25,6 +25,14 @@
     ],
     "lastchange": "2021-06-30T20:08:48.997Z"
   },
+  "feeds": [
+    {
+      "name": "ffmuc-blog",
+      "category": "blog",
+      "type": "xml",
+      "url": "https://ffmuc.net/feed.xml"
+    }
+  ],
   "nodeMaps": [
     {
       "url": "https://map.ffmuc.net/",
