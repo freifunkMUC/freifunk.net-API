@@ -14,8 +14,6 @@
   },
   "contact": {
     "email": "hilfe@ffmuc.bayern",
-    "irc": "ircs://irc.darkfasel.net/#freifunk",
-    "ml": "http://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net",
     "twitter": "@FreifunkMUC"
   },
   "state": {
@@ -25,20 +23,14 @@
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2019-05-22T12:46:32.102Z"
+    "lastchange": "2021-06-30T20:08:48.997Z"
   },
   "feeds": [
     {
       "name": "ffmuc-blog",
       "category": "blog",
       "type": "xml",
-      "url": "https://hp.ext.ffmuc.net/feed.xml"
-    },
-    {
-      "name": "Freifunk München Podcast",
-      "category": "podcast",
-      "type": "xml",
-      "url": "https://hp.ext.ffmuc.net/podcast/mp3.xml"
+      "url": "https://ffmuc.net/feed.xml"
     }
   ],
   "nodeMaps": [
@@ -66,6 +58,9 @@
       "ipv6": [
         {
           "network": "2001:678:e68::/48"
+        },
+        {
+          "network": "2001:678:ed0::/48"
         }
       ],
       "ipv4": [
@@ -87,5 +82,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.14"
+  "api": "0.4.16"
 }
