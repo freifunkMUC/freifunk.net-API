@@ -18,13 +18,12 @@ except Exception as ex:
 
 data["state"]["lastchange"] = datetime.now().isoformat('T')
 data["state"]["nodes"] = int(nodes)
-print data["state"]["lastchange"]
-print data["state"]["nodes"]
+print (data["state"]["lastchange"])
+print (data["state"]["nodes"])
 
 try:
   with open('freifunk.net.json', 'w') as fn:
-    fn.write(dumps(data, indent=4))
+    json.dump(data, fn, indent=4, ensure_ascii=False)
     fn.close()
 except Exception as ex:
   exit(ex)
-
