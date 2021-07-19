@@ -1,86 +1,86 @@
 {
-  "name": "Freifunk München",
-  "url": "https://ffmuc.net/",
-  "location": {
-    "city": "München",
-    "country": "DE",
-    "lat": 48.1536,
-    "lon": 11.5607,
-    "address": {
-      "Name": "muCCC",
-      "Street": "Schleißheimer Str. 41",
-      "Zipcode": "80797"
-    }
-  },
-  "contact": {
-    "email": "hilfe@ffmuc.bayern",
-    "twitter": "@FreifunkMUC"
-  },
-  "state": {
-    "nodes": 1657,
-    "focus": [
-      "infrastructure/backbone",
-      "Public Free Wifi",
-      "Free internet access"
-    ],
-    "lastchange": "2021-06-30T20:08:48.997Z"
-  },
-  "feeds": [
-    {
-      "name": "ffmuc-blog",
-      "category": "blog",
-      "type": "xml",
-      "url": "https://ffmuc.net/feed.xml"
-    }
-  ],
-  "nodeMaps": [
-    {
-      "url": "https://map.ffmuc.net/",
-      "interval": "1 minute",
-      "technicalType": "meshviewer",
-      "mapType": "geographical"
+    "name": "Freifunk München",
+    "url": "https://ffmuc.net/",
+    "location": {
+        "city": "München",
+        "country": "DE",
+        "lat": 48.1536,
+        "lon": 11.5607,
+        "address": {
+            "Name": "muCCC",
+            "Street": "Schleißheimer Str. 41",
+            "Zipcode": "80797"
+        }
     },
-    {
-      "url": "https://gw04.ext.ffmuc.net/nodelist.json",
-      "interval": "1 minute",
-      "technicalType": "nodelist"
-    }
-  ],
-  "techDetails": {
-    "firmware": {
-      "name": "gluon",
-      "url": "https://firmware.ffmuc.net",
-      "docs": "https://github.com/freifunkMUC/site-ffm",
-      "vpnaccess": "automatic",
-      "orgrestrictions": "https://ffmuc.net/nutzungsbedingungen/"
+    "contact": {
+        "email": "hilfe@ffmuc.bayern",
+        "twitter": "@FreifunkMUC"
     },
-    "networks": {
-      "ipv6": [
+    "state": {
+        "nodes": 1557,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Free internet access"
+        ],
+        "lastchange": "2021-07-19T05:10:23.540821"
+    },
+    "feeds": [
         {
-          "network": "2001:678:e68::/48"
+            "name": "ffmuc-blog",
+            "category": "blog",
+            "type": "xml",
+            "url": "https://ffmuc.net/feed.xml"
+        }
+    ],
+    "nodeMaps": [
+        {
+            "url": "https://map.ffmuc.net/",
+            "interval": "1 minute",
+            "technicalType": "meshviewer",
+            "mapType": "geographical"
         },
         {
-          "network": "2001:678:ed0::/48"
+            "url": "https://gw04.ext.ffmuc.net/nodelist.json",
+            "interval": "1 minute",
+            "technicalType": "nodelist"
         }
-      ],
-      "ipv4": [
-        {
-          "network": "5.1.66.0/24"
-        }
-      ]
+    ],
+    "techDetails": {
+        "firmware": {
+            "name": "gluon",
+            "url": "https://firmware.ffmuc.net",
+            "docs": "https://github.com/freifunkMUC/site-ffm",
+            "vpnaccess": "automatic",
+            "orgrestrictions": "https://ffmuc.net/nutzungsbedingungen/"
+        },
+        "networks": {
+            "ipv6": [
+                {
+                    "network": "2001:678:e68::/48"
+                },
+                {
+                    "network": "2001:678:ed0::/48"
+                }
+            ],
+            "ipv4": [
+                {
+                    "network": "5.1.66.0/24"
+                }
+            ]
+        },
+        "routing": [
+            "batman-adv"
+        ],
+        "updatemode": [
+            "manual",
+            "autoupdate"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational",
+            "institutions"
+        ]
     },
-    "routing": [
-      "batman-adv"
-    ],
-    "updatemode": [
-      "manual",
-      "autoupdate"
-    ],
-    "legals": [
-      "vpnnational",
-      "vpninternational",
-      "institutions"
-    ]
-  },
-  "api": "0.4.16"
+    "api": "0.4.16"
 }
