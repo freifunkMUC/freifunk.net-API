@@ -18,13 +18,13 @@
         "twitter": "@FreifunkMUC"
     },
     "state": {
-        "nodes": 1473,
+        "nodes": 1480,
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2022-01-05T05:04:16.739736"
+        "lastchange": "2022-01-06T05:05:03.059503"
     },
     "feeds": [
         {
