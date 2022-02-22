@@ -16,7 +16,7 @@ try:
 except Exception as ex:
   exit(ex)
 
-data["state"]["lastchange"] = datetime.now().isoformat('T')
+data["state"]["lastchange"] = datetime.now().astimezone().replace(microsecond=0).isoformat()
 data["state"]["nodes"] = int(nodes)
 print (data["state"]["lastchange"])
 print (data["state"]["nodes"])
