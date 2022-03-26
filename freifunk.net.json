@@ -4,12 +4,14 @@
     "location": {
         "city": "München",
         "country": "DE",
-        "lat": 48.1536,
-        "lon": 11.5607,
+        "geoCode": {
+            "lat": 48.0689,
+            "lon": 11.3721
+        }
         "address": {
-            "Name": "muCCC",
-            "Street": "Schleißheimer Str. 41",
-            "Zipcode": "80797"
+            "name": "Freie Netze München e.V.",
+            "street": "Parkstraße 28",
+            "zipcode": "82131"
         }
     },
     "contact": {
@@ -22,6 +24,7 @@
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
+            "Local services and content",
             "Free internet access"
         ],
         "lastchange": "2022-03-26T05:03:26.515071"
