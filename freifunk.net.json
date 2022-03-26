@@ -33,7 +33,7 @@
         {
             "name": "ffmuc-blog",
             "category": "blog",
-            "type": "xml",
+            "type": "rss",
             "url": "https://ffmuc.net/feed.xml"
         }
     ],
