@@ -5,13 +5,13 @@
         "city": "München",
         "country": "DE",
         "geoCode": {
-            "lat": 48.1536,
-            "lon": 11.5607
+            "lat": 48.0689,
+            "lon": 11.3721
         }
         "address": {
-            "Name": "Freie Netze München e.V.",
-            "Street": "Parkstraße 28",
-            "Zipcode": "82131"
+            "name": "Freie Netze München e.V.",
+            "street": "Parkstraße 28",
+            "zipcode": "82131"
         }
     },
     "contact": {
