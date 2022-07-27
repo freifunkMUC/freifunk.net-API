@@ -12,7 +12,17 @@
             "name": "Freie Netze München e.V.",
             "street": "Parkstraße 28",
             "zipcode": "82131"
-        }
+        },
+        "additionalLocations": [
+            {
+                "city": "Augsburg",
+                "country": "DE",
+                "geoCode": {
+                "lat": 48.365231130145744,
+                "lon": 10.88552163500304
+                }
+            }
+        ]
     },
     "contact": {
         "email": "hilfe@ffmuc.bayern",
