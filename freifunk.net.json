@@ -18,8 +18,8 @@
                 "city": "Augsburg",
                 "country": "DE",
                 "geoCode": {
-                "lat": 48.365231130145744,
-                "lon": 10.88552163500304
+                    "lat": 48.365231130145744,
+                    "lon": 10.88552163500304
                 }
             }
         ]
@@ -30,14 +30,14 @@
         "twitter": "@FreifunkMUC"
     },
     "state": {
-        "nodes": 1599,
+        "nodes": 1611,
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Local services and content",
             "Free internet access"
         ],
-        "lastchange": "2022-07-31T05:05:31+00:00"
+        "lastchange": "2022-07-31T10:54:55+00:00"
     },
     "feeds": [
         {
