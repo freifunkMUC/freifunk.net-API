@@ -2,136 +2,136 @@
     "name": "Freifunk Ebersberg",
     "url": "https://ffmuc.net/",
     "location": {
-      "city": "München",
-      "country": "DE",
-      "geoCode": {
-        "lat": 48.0689,
-        "lon": 11.3721
-      },
-      "address": {
-        "name": "Freie Netze München e.V.",
-        "street": "Parkstraße 28",
-        "zipcode": "82131"
-      }
+        "city": "München",
+        "country": "DE",
+        "geoCode": {
+            "lat": 48.0689,
+            "lon": 11.3721
+        },
+        "address": {
+            "name": "Freie Netze München e.V.",
+            "street": "Parkstraße 28",
+            "zipcode": "82131"
+        }
     },
     "contact": {
-      "email": "hilfe@ffmuc.bayern",
-      "facebook": "https://www.facebook.com/FreifunkMUC/",
-      "twitter": "@FreifunkMUC"
+        "email": "hilfe@ffmuc.bayern",
+        "facebook": "https://www.facebook.com/FreifunkMUC/",
+        "twitter": "@FreifunkMUC"
     },
     "state": {
-      "nodes": 1619,
-      "focus": [
-        "infrastructure/backbone",
-        "Public Free Wifi",
-        "Local services and content",
-        "Free internet access"
-      ],
-      "lastchange": "2022-07-29T05:12:26+00:00"
+        "nodes": 1509,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Local services and content",
+            "Free internet access"
+        ],
+        "lastchange": "2023-09-02T05:02:57+00:00"
     },
     "feeds": [
-      {
-        "name": "ffmuc-blog",
-        "category": "blog",
-        "type": "atom",
-        "url": "https://ffmuc.net/feed.xml"
-      }
+        {
+            "name": "ffmuc-blog",
+            "category": "blog",
+            "type": "atom",
+            "url": "https://ffmuc.net/feed.xml"
+        }
     ],
     "nodeMaps": [
-      {
-        "url": "https://map.ffmuc.net/",
-        "interval": "1 minute",
-        "technicalType": "meshviewer",
-        "mapType": "geographical"
-      },
-      {
-        "url": "https://gw04.ext.ffmuc.net/nodelist.json",
-        "interval": "1 minute",
-        "technicalType": "nodelist"
-      }
+        {
+            "url": "https://map.ffmuc.net/",
+            "interval": "1 minute",
+            "technicalType": "meshviewer",
+            "mapType": "geographical"
+        },
+        {
+            "url": "https://gw04.ext.ffmuc.net/nodelist.json",
+            "interval": "1 minute",
+            "technicalType": "nodelist"
+        }
     ],
     "techDetails": {
-      "firmware": {
-        "name": "gluon",
-        "url": "https://firmware.ffmuc.net",
-        "docs": "https://github.com/freifunkMUC/site-ffm",
-        "vpnaccess": "automatic",
-        "orgrestrictions": "https://ffmuc.net/nutzungsbedingungen/"
-      },
-      "networks": {
-        "ipv6": [
-          {
-            "network": "2001:678:e68::/48"
-          },
-          {
-            "network": "2001:678:ed0::/48"
-          }
+        "firmware": {
+            "name": "gluon",
+            "url": "https://firmware.ffmuc.net",
+            "docs": "https://github.com/freifunkMUC/site-ffm",
+            "vpnaccess": "automatic",
+            "orgrestrictions": "https://ffmuc.net/nutzungsbedingungen/"
+        },
+        "networks": {
+            "ipv6": [
+                {
+                    "network": "2001:678:e68::/48"
+                },
+                {
+                    "network": "2001:678:ed0::/48"
+                }
+            ],
+            "ipv4": [
+                {
+                    "network": "5.1.66.0/24"
+                },
+                {
+                    "network": "185.150.99.0/24"
+                }
+            ]
+        },
+        "routing": [
+            "batman-adv"
         ],
-        "ipv4": [
-          {
-            "network": "5.1.66.0/24"
-          },
-          {
-            "network": "185.150.99.0/24"
-          }
+        "updatemode": [
+            "manual",
+            "autoupdate"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational",
+            "institutions"
         ]
-      },
-      "routing": [
-        "batman-adv"
-      ],
-      "updatemode": [
-        "manual",
-        "autoupdate"
-      ],
-      "legals": [
-        "vpnnational",
-        "vpninternational",
-        "institutions"
-      ]
     },
     "api": "0.5.0",
     "support": {
-      "donations": {
-        "bankaccount": {
-          "IBAN": "DE73 7025 0150 0029 4939 13",
-          "BIC": " BYLADEM1KMS",
-          "usage": "FFMUC Spende"
+        "donations": {
+            "bankaccount": {
+                "IBAN": "DE73 7025 0150 0029 4939 13",
+                "BIC": " BYLADEM1KMS",
+                "usage": "FFMUC Spende"
+            }
         }
-      }
     },
     "privacy": {
-      "policyurl": "https://ffmuc.net/privacy/"
+        "policyurl": "https://ffmuc.net/privacy/"
     },
     "services": [
-      {
-        "serviceName": "Mattermost",
-        "serviceDescription": "Unser Community Chat",
-        "externalUri": "https://chat.ffmuc.net"
-      },
-      {
-        "serviceName": "DNS-over-HTTPS",
-        "serviceDescription": "DNS-over-HTTPS Server",
-        "externalUri": "doh.ffmuc.net"
-      },
-      {
-        "serviceName": "DNS-over-TLS",
-        "serviceDescription": "DNS-over-TLS Server",
-        "externalUri": "dot.ffmuc.net"
-      },
-      {
-        "serviceName": "Etherpad",
-        "serviceDescription": "Öffentliche Etherpad Instanz",
-        "externalUri": "https://ffmuc.net/pad/"
-      },
-      {
-        "serviceName": "CryptPad",
-        "serviceDescription": "Öffentliche CryptPad Instanz",
-        "externalUri": "https://cryptpad.ffmuc.net/"
-      },
-      {
-        "serviceName": "Freifunk Meet",
-        "serviceDescription": "Öffentliche Jitsi Instanz",
-        "externalUri": "https://meet.ffmuc.net"
-      }
+        {
+            "serviceName": "Mattermost",
+            "serviceDescription": "Unser Community Chat",
+            "externalUri": "https://chat.ffmuc.net"
+        },
+        {
+            "serviceName": "DNS-over-HTTPS",
+            "serviceDescription": "DNS-over-HTTPS Server",
+            "externalUri": "doh.ffmuc.net"
+        },
+        {
+            "serviceName": "DNS-over-TLS",
+            "serviceDescription": "DNS-over-TLS Server",
+            "externalUri": "dot.ffmuc.net"
+        },
+        {
+            "serviceName": "Etherpad",
+            "serviceDescription": "Öffentliche Etherpad Instanz",
+            "externalUri": "https://ffmuc.net/pad/"
+        },
+        {
+            "serviceName": "CryptPad",
+            "serviceDescription": "Öffentliche CryptPad Instanz",
+            "externalUri": "https://cryptpad.ffmuc.net/"
+        },
+        {
+            "serviceName": "Freifunk Meet",
+            "serviceDescription": "Öffentliche Jitsi Instanz",
+            "externalUri": "https://meet.ffmuc.net"
+        }
     ]
-  }
+}
