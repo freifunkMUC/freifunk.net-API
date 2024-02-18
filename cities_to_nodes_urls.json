@@ -1,0 +1,8 @@
+{
+    "muenchen": "https://map.ffmuc.net/data/meshviewer.json", 
+    "freifunk.net": "https://map.ffmuc.net/data/meshviewer.json",
+    "ebersberg": "https://map.ffmuc.net/data/meshviewer.json",
+    "augsburg": "https://map.ffmuc.net/data/meshviewer.json",
+    "freising": "https://map.ffmuc.net/data/meshviewer.json",
+    "donau-ries": "https://map.ffmuc.net/data/meshviewer-ffdon.json"
+}

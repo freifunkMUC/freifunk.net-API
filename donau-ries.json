@@ -1,0 +1,99 @@
+{
+    "name": "Freifunk Donau-Ries",
+    "url": "http://www.freifunk-donau-ries.de",
+    "location": {
+        "city": "Donauwörth",
+        "country": "DE",
+        "geoCode": {
+            "lat": 48.71090025795715,
+            "lon": 10.7830810546875
+        }
+    },
+    "contact": {
+        "email": "hilfe@ffmuc.bayern",
+        "facebook": "https://www.facebook.com/FreifunkMUC/",
+        "twitter": "@FreifunkMUC"
+    },
+    "state": {
+        "nodes": 253,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Local services and content",
+            "Free internet access"
+        ],
+        "lastchange": "2024-02-18T19:42:02+00:00"
+    },
+    "nodeMaps": [
+        {
+            "url": "http://map.freifunk-donau-ries.de/",
+            "interval": "1 minute",
+            "technicalType": "meshviewer",
+            "mapType": "geographical"
+        }
+    ],
+    "techDetails": {
+        "firmware": {
+            "name": "gluon",
+            "url": "https://firmware.ffmuc.net",
+            "docs": "https://github.com/freifunkMUC/site-ffm",
+            "vpnaccess": "automatic",
+            "orgrestrictions": "https://ffmuc.net/nutzungsbedingungen/"
+        },
+        "networks": {
+            "ipv6": [
+                {
+                    "network": "2001:678:e68::/48"
+                },
+                {
+                    "network": "2001:678:ed0::/48"
+                }
+            ],
+            "ipv4": [
+                {
+                    "network": "5.1.66.0/24"
+                },
+                {
+                    "network": "185.150.99.0/24"
+                }
+            ]
+        },
+        "routing": [
+            "batman-adv"
+        ],
+        "updatemode": [
+            "manual",
+            "autoupdate"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational",
+            "institutions"
+        ]
+    },
+    "api": "0.5.0",
+    "support": {
+        "donations": {
+            "bankaccount": {
+                "IBAN": "DE73 7025 0150 0029 4939 13",
+                "BIC": " BYLADEM1KMS",
+                "usage": "FFMUC Spende"
+            }
+        }
+    },
+    "privacy": {
+        "policyurl": "https://ffmuc.net/privacy/"
+    },
+    "services": [
+        {
+            "serviceName": "Mattermost",
+            "serviceDescription": "Unser Community Chat",
+            "externalUri": "https://chat.ffmuc.net"
+        },
+        {
+            "serviceName": "Blog",
+            "serviceDescription": "Blog von Donau-Ries",
+            "externalUri": "https://www.freifunk-donau-ries.de/blog/"
+        }
+    ]
+}

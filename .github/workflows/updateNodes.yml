@@ -37,6 +37,8 @@ jobs:
         git add freising.json
         git add ebersberg.json
         git add augsburg.json
+        git add muenchen.json
+        git add donau-ries.json
         git commit -m "updated number of nodes"
         
     - name: Push changes
