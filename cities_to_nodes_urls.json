@@ -4,5 +4,6 @@
     "ebersberg": "https://map.ffmuc.net/data/meshviewer.json",
     "augsburg": "https://map.ffmuc.net/data/meshviewer-augsburg.json",
     "freising": "https://map.ffmuc.net/data/meshviewer-freising.json",
-    "donau-ries": "https://map.ffmuc.net/data/meshviewer-ffdon.json"
+    "donau-ries": "https://map.ffmuc.net/data/meshviewer-ffdon.json",
+    "ulm": "https://map.ffmuc.net/data/meshviewer-ulm.json"
 }
