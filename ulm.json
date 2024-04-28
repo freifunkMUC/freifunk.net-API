@@ -1,0 +1,145 @@
+{
+    "name": "Freifunk Ulm",
+    "url": "http://www.freifunk-ulm.de",
+    "location": {
+        "city": "Ulm/Neu-Ulm",
+        "country": "DE",
+        "address": {
+            "name": "Freiraum",
+            "street": "Platzgasse 18",
+            "zipcode": "89073"
+        },
+        "geoCode": {
+            "lat": 48.4,
+            "lon": 9.983333
+        }
+    },
+    "contact": {
+        "email": "freifunkulm@lists.freifunk-ulm.de",
+        "irc": "irc://irc.freenode.net/#ffulm",
+        "ml": "freifunkulm@lists.freifunk-ulm.de"
+    },
+    "state": {
+        "nodes": 1,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Local services and content",
+            "Free internet access"
+        ],
+        "lastchange": "2024-04-28T00:28:58+00:00"
+    },
+    "feeds": [
+        {
+            "name": "ffmuc-blog",
+            "category": "blog",
+            "type": "atom",
+            "url": "https://ffmuc.net/feed.xml"
+        }
+    ],
+    "nodeMaps": [
+        {
+            "url": "https://map.ffmuc.net/",
+            "interval": "1 minute",
+            "technicalType": "meshviewer",
+            "mapType": "geographical"
+        },
+        {
+            "url": "https://gw04.ext.ffmuc.net/nodelist.json",
+            "interval": "1 minute",
+            "technicalType": "nodelist"
+        }
+    ],
+    "support": {
+        "club": {
+            "name": "Freifunk Unterstützungsverein e.V.",
+            "street": "Fichtestr. 13",
+            "zip": "89231",
+            "city": "Neu-Ulm",
+            "url": "http://freifunk-unterstuetzungsverein.de/",
+            "email": "vorsitzender@freifunk-unterstuetzungsverein.de"
+        },
+        "donations": {
+            "bankaccount": {
+                "IBAN": "DE73 7025 0150 0029 4939 13",
+                "BIC": " BYLADEM1KMS",
+                "usage": "FFMUC Spende"
+            }
+        }
+    },
+    "privacy": {
+        "policyurl": "https://ffmuc.net/privacy/"
+    },
+    "techDetails": {
+        "firmware": {
+            "name": "gluon",
+            "url": "https://firmware.ffmuc.net",
+            "docs": "https://github.com/freifunkMUC/site-ffm",
+            "vpnaccess": "automatic",
+            "orgrestrictions": "https://ffmuc.net/nutzungsbedingungen/"
+        },
+        "networks": {
+            "ipv6": [
+                {
+                    "network": "2001:678:e68::/48"
+                },
+                {
+                    "network": "2001:678:ed0::/48"
+                }
+            ],
+            "ipv4": [
+                {
+                    "network": "5.1.66.0/24"
+                },
+                {
+                    "network": "185.150.99.0/24"
+                }
+            ]
+        },
+        "routing": [
+            "batman-adv"
+        ],
+        "updatemode": [
+            "manual",
+            "autoupdate"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational",
+            "institutions"
+        ]
+    },
+    "api": "0.5.2",
+    "services": [
+        {
+            "serviceName": "Mattermost",
+            "serviceDescription": "Unser Community Chat",
+            "externalUri": "https://chat.ffmuc.net"
+        },
+        {
+            "serviceName": "DNS-over-HTTPS",
+            "serviceDescription": "DNS-over-HTTPS Server",
+            "externalUri": "doh.ffmuc.net"
+        },
+        {
+            "serviceName": "DNS-over-TLS",
+            "serviceDescription": "DNS-over-TLS Server",
+            "externalUri": "dot.ffmuc.net"
+        },
+        {
+            "serviceName": "Etherpad",
+            "serviceDescription": "Öffentliche Etherpad Instanz",
+            "externalUri": "https://ffmuc.net/pad/"
+        },
+        {
+            "serviceName": "CryptPad",
+            "serviceDescription": "Öffentliche CryptPad Instanz",
+            "externalUri": "https://cryptpad.ffmuc.net/"
+        },
+        {
+            "serviceName": "Freifunk Meet",
+            "serviceDescription": "Öffentliche Jitsi Instanz",
+            "externalUri": "https://meet.ffmuc.net"
+        }
+    ]
+}

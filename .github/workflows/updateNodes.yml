@@ -39,6 +39,7 @@ jobs:
         git add augsburg.json
         git add muenchen.json
         git add donau-ries.json
+        git add ulm.json
         git commit -m "updated number of nodes"
         
     - name: Push changes
