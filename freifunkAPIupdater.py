@@ -19,10 +19,14 @@ for city, url in cities_to_urls.items():
 
     #Load Results json for Update
     filename_result = f"{city}-results.json"
-    with open(filename_result, encoding="utf8") as json_resultdata:
-        updatedata = json.load(json_resultdata)
-        json_resultdata.close()
-    
+    try:
+        with open(filename_result, encoding="utf8") as json_resultdata:
+            updatedata = json.load(json_resultdata)
+            json_resultdata.close()
+    except OSError as ex: 
+        print(f"Error opening {filename_result}. Skipping.")
+        continue
+
     nodes = updatedata["online_nodes"]
 
     data["state"]["lastchange"] = datetime.now().astimezone().replace(microsecond=0).isoformat()
@@ -30,9 +34,12 @@ for city, url in cities_to_urls.items():
     print(city)
     print(data["state"]["lastchange"])
     print(data["state"]["nodes"])
+
     try:
         with open(filenamecity, 'w', encoding="utf8") as fn:
             json.dump(data, fn, indent=4, ensure_ascii=False)
             fn.close()
     except OSError as ex:
-        sys.exit(ex)
+        print(f"Error saving {filename_result}. Skipping.")
+        continue
+
