@@ -9,4 +9,6 @@ updates:
     directory: "/"
     schedule:
       # Check for updates to GitHub Actions every weekday
-      interval: "daily"
+      interval: "monthly"
+    reviewers: [freifunkMUC/firmware]
+    assignees: [freifunkMUC/firmware]
