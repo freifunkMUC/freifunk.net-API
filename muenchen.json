@@ -31,14 +31,14 @@
         "mastodon": "https://muenchen.social/@FreifunkMUC"
     },
     "state": {
-        "nodes": 2000,
+        "nodes": 2010,
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Local services and content",
             "Free internet access"
         ],
-        "lastchange": "2025-06-26T05:04:38+00:00"
+        "lastchange": "2025-06-27T05:04:50+00:00"
     },
     "feeds": [
         {
