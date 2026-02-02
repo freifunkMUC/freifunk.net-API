@@ -20,14 +20,14 @@
         "ml": "freifunkulm@lists.freifunk-ulm.de"
     },
     "state": {
-        "nodes": 80,
+        "nodes": 81,
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Local services and content",
             "Free internet access"
         ],
-        "lastchange": "2026-02-01T05:29:08+00:00"
+        "lastchange": "2026-02-02T05:30:52+00:00"
     },
     "feeds": [
         {
