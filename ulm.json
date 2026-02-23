@@ -141,5 +141,6 @@
             "serviceDescription": "Öffentliche Jitsi Instanz",
             "externalUri": "https://meet.ffmuc.net"
         }
-    ]
+    ],
+    "metacommunity": "Freifunk Muenchen"
 }
