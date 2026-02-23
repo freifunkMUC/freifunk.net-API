@@ -22,7 +22,8 @@
                     "lon": 10.88552163500304
                 }
             }
-        ]
+        ],
+        "state": "DE-BY"
     },
     "contact": {
         "email": "hilfe@ffmuc.bayern",
@@ -100,7 +101,7 @@
             "institutions"
         ]
     },
-    "api": "0.5.2",
+    "api": "0.5.3",
     "support": {
         "donations": {
             "bankaccount": {

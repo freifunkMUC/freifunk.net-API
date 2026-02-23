@@ -12,7 +12,8 @@
             "name": "Freie Netze München e.V.",
             "street": "Parkstraße 28",
             "zipcode": "82131"
-        }
+        },
+        "state": "DE-BY"
     },
     "contact": {
         "email": "hilfe@ffmuc.bayern",
@@ -89,7 +90,7 @@
             "institutions"
         ]
     },
-    "api": "0.5.0",
+    "api": "0.5.3",
     "support": {
         "donations": {
             "bankaccount": {

@@ -12,7 +12,8 @@
         "geoCode": {
             "lat": 48.4,
             "lon": 9.983333
-        }
+        },
+        "state": "DE-BY"
     },
     "contact": {
         "email": "freifunkulm@lists.freifunk-ulm.de",
@@ -109,7 +110,7 @@
             "institutions"
         ]
     },
-    "api": "0.5.2",
+    "api": "0.5.3",
     "services": [
         {
             "serviceName": "Mattermost",
