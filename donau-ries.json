@@ -7,7 +7,8 @@
         "geoCode": {
             "lat": 48.71090025795715,
             "lon": 10.7830810546875
-        }
+        },
+        "state": "DE-BY"
     },
     "contact": {
         "email": "hilfe@ffmuc.bayern",
@@ -71,7 +72,7 @@
             "institutions"
         ]
     },
-    "api": "0.5.0",
+    "api": "0.5.3",
     "support": {
         "donations": {
             "bankaccount": {
@@ -95,5 +96,6 @@
             "serviceDescription": "Blog von Donau-Ries",
             "externalUri": "https://www.freifunk-donau-ries.de/blog/"
         }
-    ]
+    ],
+    "metacommunity": "Freifunk München"
 }
