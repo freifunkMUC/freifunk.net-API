@@ -16,14 +16,14 @@
         "twitter": "@FreifunkMUC"
     },
     "state": {
-        "nodes": 199,
+        "nodes": 192,
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Local services and content",
             "Free internet access"
         ],
-        "lastchange": "2026-09-30T05:09:47+00:00"
+        "lastchange": "2026-10-01T05:09:45+00:00"
     },
     "nodeMaps": [
         {
