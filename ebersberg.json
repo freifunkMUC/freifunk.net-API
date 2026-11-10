@@ -2,11 +2,11 @@
     "name": "Freifunk Ebersberg",
     "url": "https://ffmuc.net/",
     "location": {
-        "city": "München",
+        "city": "Ebersberg",
         "country": "DE",
         "geoCode": {
-            "lat": 48.0689,
-            "lon": 11.3721
+            "lat": 48.0769,
+            "lon": 11.9697
         },
         "address": {
             "name": "Freie Netze München e.V.",
@@ -21,7 +21,6 @@
         "twitter": "@FreifunkMUC"
     },
     "state": {
-        "nodes": 1838,
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",

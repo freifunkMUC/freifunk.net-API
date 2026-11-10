@@ -1,12 +1,12 @@
 {
-    "name": "Freifunk Ebersberg",
+    "name": "Freifunk Freising",
     "url": "https://ffmuc.net/",
     "location": {
-        "city": "München",
+        "city": "Freising",
         "country": "DE",
         "geoCode": {
-            "lat": 48.0689,
-            "lon": 11.3721
+            "lat": 48.4028,
+            "lon": 11.7489
         },
         "address": {
             "name": "Freie Netze München e.V.",

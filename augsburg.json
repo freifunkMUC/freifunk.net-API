@@ -2,11 +2,11 @@
     "name": "Freifunk Augsburg",
     "url": "https://ffmuc.net/",
     "location": {
-        "city": "München",
+        "city": "Augsburg",
         "country": "DE",
         "geoCode": {
-            "lat": 48.0689,
-            "lon": 11.3721
+            "lat": 48.3705,
+            "lon": 10.8978
         },
         "address": {
             "name": "Freie Netze München e.V.",

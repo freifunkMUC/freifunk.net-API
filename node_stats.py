@@ -31,7 +31,7 @@ def save_to_json(filename, data):
 for city, url in cities_to_urls.items():
     nodes = scrape(url)
 
-    if nodes and len(nodes['nodes']) > 0:
+    if nodes and len(nodes.get('nodes') or []) > 0:
         ONLINE = 0
         NONCLIENT = 0
         for node in nodes['nodes']:

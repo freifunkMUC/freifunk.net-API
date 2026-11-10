@@ -27,10 +27,16 @@ for city, url in cities_to_urls.items():
         print(f"Error opening {filename_result}. Skipping.")
         continue
 
-    nodes = updatedata["online_nodes"]
+    nodes = int(updatedata["online_nodes"])
+
+    # Keep the old count if the source is empty or collapsed (e.g. broken map data)
+    old = data["state"].get("nodes")
+    if nodes <= 0 or (old and old >= 20 and nodes < old * 0.5):
+        print(f"{city}: implausible count {nodes} (was {old}). Skipping.")
+        continue
 
     data["state"]["lastchange"] = datetime.now().astimezone().replace(microsecond=0).isoformat()
-    data["state"]["nodes"] = int(nodes)
+    data["state"]["nodes"] = nodes
     print(city)
     print(data["state"]["lastchange"])
     print(data["state"]["nodes"])
