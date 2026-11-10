@@ -27,7 +27,7 @@
     },
     "nodeMaps": [
         {
-            "url": "http://map.freifunk-donau-ries.de/",
+            "url": "https://map.freifunk-donau-ries.de/",
             "interval": "1 minute",
             "technicalType": "meshviewer",
             "mapType": "geographical"
